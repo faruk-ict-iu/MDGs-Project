@@ -1,0 +1,253 @@
+*{
+	margin:0;
+	padding:0;
+	scroll-behavior: smooth;
+}
+#First{
+	background:green;
+	
+}
+.Container{
+	max-width:1070px;
+	margin:0px auto;
+	padding:1px 0;
+	overflow:hidden;
+}
+.Full-width{
+	margin:10px;
+}
+.logo{
+	float :left;
+	
+	width:40%
+	
+}
+
+.menu{
+	float :right;
+	width:60% 
+}
+.menu ul{
+	
+}
+.menu ul li{
+	list-style:none;
+	float:left;
+	padding:10px;
+}
+.menu ul li a{
+	font-size:20px;
+	padding:10px 15px;
+	text-decoration:none;
+	color:rgb(255, 255, 255);
+	transition:0.5s ease;
+	
+}
+.menu ul li a:hover{
+	color:rgb(0, 0, 0);
+	background:red;
+}
+#Second-section{
+	background:url(images/Cover-01.jpg) no-repeat;
+	background-size:cover;
+	background-position:center center;
+	background-attachment:fixed;
+}
+.content{
+	text-align:center;
+	padding:150px 0;
+}
+#particles-js{
+	height: 300px;
+	max-width: 1070px;
+}
+.content h1{
+	font-size:60px;
+	color:rgb(250, 250, 250);
+	width: 0ch;
+	white-space: nowrap;
+	overflow: hidden;
+	animation:text 7s steps(35) infinite;
+	border-right: 3px solid white;
+}
+@keyframes text{
+	0%{
+		width: 0ch;
+	}
+	50%{
+		width: 37ch;
+	}
+}
+
+.content p{
+	font-size:30px ;
+	
+	color:rgb(255, 255, 255);
+}
+
+
+#third-section{
+	background-color: rgb(109, 109, 109);
+
+}
+.third-content{
+
+}
+.content-content{
+	padding: 35px 0;
+
+}
+.content-content h2{
+	color: rgb(252, 252, 252);
+	font-size: 70px;
+}
+.content-content p{
+	
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+}
+.About{
+	padding: 100px 0;
+	float: right;
+}
+#fourth-section{
+
+}
+.fourth-top{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 30px;
+}
+.fourth-content{
+
+}
+
+.fourth{
+	max-width: 25%;
+	float: left;
+	text-align: center;
+	padding-left: 25px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+#fifth-section{
+
+}
+
+.fifth-content{
+
+}
+
+.fifth{
+	max-width: 25%;
+	float: left;
+	text-align: center;
+	padding-left: 35px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+#sign-up{
+	background: cornflowerblue;
+	padding-bottom: 50px;
+
+}
+.contacts{
+	padding-top: 20px;
+	text-align: center;
+	color: cornsilk;
+	
+}
+.contacts h2{
+      font-size: 50px;
+}
+.sign-up-form{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 30px;
+    margin: 5% auto 0;
+    text-align: center;
+}
+.sign-up-form h1{
+    color: #1c8adb;
+    margin-bottom: 30px;
+}
+.input-box{
+    border-radius: 20px;
+    padding: 8px;
+    margin:10px 0;
+    width: 100%;
+    border: 1px solid #999;
+    outline: none;
+
+}
+button{
+    color: #fff;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 20px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.sign-up-btn{
+    background-color: #1c8adb;
+}
+.sign-up-btn a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+.sign-up-btn a:hover{
+    color:rgb(206, 240, 14);
+}
+a{
+    text-decoration: none;
+}
+hr{
+    margin-top: 20px;
+    width: 100%;
+
+}
+.or{
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+#footer{
+	background: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
+	text-align: center;
+	padding-top: 20px;
+}
+.link{
+
+}
+.link h1{
+	font-size: 40px;
+
+}
+
+.link ul a{
+	padding-right: 10px;
+	text-decoration: none;
+	color: cornsilk;
+}
+.link ul a:hover{
+	color: green;
+}
+.copyright{
+	padding-top: 30px;
+	padding-bottom: 20px;
+	
+}
+.copyright a{
+	text-decoration: none;
+	color: green;
+	
+}
+
+
